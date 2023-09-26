@@ -8,10 +8,3 @@ def inicio(request):
         "nombre": nombre,
     }
     return render(request, 'index.html', context)
-
-def contacto(request):
-    titulo = "Contacto"
-    context={
-        "titulo": titulo,
-    }
-    return render(request, 'contacto.html', context)
